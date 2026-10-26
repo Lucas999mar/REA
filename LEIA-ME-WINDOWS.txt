@@ -1,0 +1,22 @@
+REA MOBILIDADE - DEMONSTRACAO NO WINDOWS
+
+1. Instale Node.js 24.22.1 LTS ou uma versao 24.x mais recente com npm.
+   Site oficial: https://nodejs.org/
+2. Extraia TODOS os arquivos do ZIP antes de executar.
+3. De dois cliques em INICIAR-REA.cmd.
+4. Aguarde a instalacao e a mensagem "REA API em 127.0.0.1:3001".
+5. No navegador DESTE computador, digite: http://127.0.0.1:3001
+
+LOGIN DE DEMONSTRACAO
+E-mail: admin@rea.local
+Senha: ReaDemo!2026
+Ou clique em "Preencher acesso de demonstracao" na tela de entrada.
+
+Voce pode navegar pelas corridas, motoristas, passageiros e tarifas.
+Mantenha a janela do servidor aberta. Ctrl+C encerra o sistema.
+Seus dados ficticios ficam em .data\demo e nao sao apagados ao reiniciar.
+
+Este pacote abre o SUPERADMIN WEB e a API. Os apps de passageiro e motorista
+sao projetos Android/iOS separados, incluidos em apps\mobile.
+A demonstracao funciona localmente; nao e um site publico.
+Guia detalhado: docs\ABRIR-DEMO.md
