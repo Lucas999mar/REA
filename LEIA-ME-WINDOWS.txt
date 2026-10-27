@@ -20,3 +20,7 @@ Este pacote abre o SUPERADMIN WEB e a API. Os apps de passageiro e motorista
 sao projetos Android/iOS separados, incluidos em apps\mobile.
 A demonstracao funciona localmente; nao e um site publico.
 Guia detalhado: docs\ABRIR-DEMO.md
+
+PARA VER OS APPS NO ANDROID
+Siga LEIA-ME-ANDROID.txt e docs\ABRIR-APPS-ANDROID.md.
+Use INICIAR-REA-REDE.cmd, ABRIR-PASSAGEIRO.cmd e ABRIR-MOTORISTA.cmd.

@@ -1,0 +1,27 @@
+REA - APPS DE PASSAGEIRO E MOTORISTA NO ANDROID
+
+1. Instale Expo Go pela Google Play no celular.
+2. Deixe computador e Android na mesma rede Wi-Fi.
+3. Se este for o complemento REA-Android-Atalhos.zip, copie TODO o conteudo
+   desta pasta REA para DENTRO da pasta REA que voce ja usa.
+   Aceite substituir os arquivos. Nao apague a pasta .data.
+   Os novos atalhos devem ficar ao lado de INICIAR-REA.cmd.
+4. Encerre a janela antiga do servidor com Ctrl+C.
+5. Abra INICIAR-REA-REDE.cmd e espere aparecer REA API em 0.0.0.0:3001.
+6. Abra ABRIR-PASSAGEIRO.cmd e aguarde o QR code.
+7. No Expo Go do Android, toque em Escanear QR code e leia o codigo.
+8. Para ver o motorista, abra ABRIR-MOTORISTA.cmd e leia o outro QR code.
+
+Mantenha as janelas abertas. Se aparecer uma lista de conexoes, escolha
+o numero do Wi-Fi ou Ethernet ligado a mesma rede do celular.
+Se o Windows solicitar, permita Node.js nas redes privadas.
+
+Passageiro: passageiro@rea.local
+Motorista: motorista@rea.local
+Senha de demonstracao para ambos: ReaDemo!2026
+
+O superadmin continua em http://127.0.0.1:3001 no computador.
+Seus dados de demonstracao continuam em .data\demo.
+O Expo Go precisa aceitar o SDK 58 usado neste projeto.
+Este complemento nao e um APK e depende do projeto REA ja extraido.
+Guia detalhado e solucao de erros: docs\ABRIR-APPS-ANDROID.md
